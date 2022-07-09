@@ -38,7 +38,7 @@ else if (n > 9 && n <= 99)
 {
 _putchar(',');
 _putchar(' ');
-_putcharr(' ');
+_putchar(' ');
 _putchar(n / 10 + '0');
 _putchar(n % 10 + '0');
 }
