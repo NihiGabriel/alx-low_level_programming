@@ -2,7 +2,7 @@
 /**
  * print_last_digit - Check main
  * @r: An integer input
- * Description: This function prints the last digit of a 
+ * Description: This function prints the last digit of a
  * number
  * Return: last digit of a number r
  */
