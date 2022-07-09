@@ -12,7 +12,7 @@ int H, M;
 for (M = 0; M < 60; M++)
 {
 _putchar((H / 10) + '0');
-_putchar((H % 10) + '0'0);
+_putchar((H % 10) + '0');
 _putchar(':');
 _putchar((M / 10) + '0');
 _putchar((M % 10) + '0');
