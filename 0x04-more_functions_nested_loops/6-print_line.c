@@ -3,7 +3,7 @@
  * print_line - a function that draws a straight line in
  * the terminal. followed by a new line.
  * @n: An input integer
- * Return: Always 0
+ * Return: nothing.
  */
 void print_line(int n)
 {
@@ -15,6 +15,8 @@ if (n > 0)
 _putchar(95);
 i += 1;
 }
+else
+_putchar('\n');
 }
 _putchar('\n');
 }
