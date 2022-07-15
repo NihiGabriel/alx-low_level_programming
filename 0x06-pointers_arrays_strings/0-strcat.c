@@ -5,7 +5,7 @@
  * @src: an input string
  * Return: A pointer to the resulting string
  */
-chr *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 int d_count = 0, s_count = 0;
 while (dest[d_count] != '\0')
