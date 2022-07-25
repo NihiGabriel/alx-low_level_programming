@@ -7,7 +7,7 @@
  * @height: An inout integer at number of rows
  * Return: pointer to a 2D aray, NULL on failure
  */
-in **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 int **array, i = 0, j = 0;
 if (width <= 0 || height <= 0)
