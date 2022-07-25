@@ -13,6 +13,6 @@ int i = 0;
 if (grid == NULL)
 return;
 while (i < height)
-free((int *)grid[i]);
+free((int *)grid[i++]);
 free(grid);
 }
