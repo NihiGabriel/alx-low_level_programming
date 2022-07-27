@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - A function that concatenates all arguments of 
+ * argstostr - A function that concatenates all arguments of
  * your programm
  * @ac: number of arguments
  * @av: array containing arguments
@@ -17,6 +17,7 @@ return (NULL);
 for (; i < ac; i++)
 {
 for (j = 0; av[i][j]; j++)
+len++;
 len++;
 }
 len++;
