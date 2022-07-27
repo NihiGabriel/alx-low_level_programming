@@ -21,7 +21,7 @@ len++;
 }
 len++;
 new_str = malloc(len * sizeof(char));
-if (i = 0 < ac; i++)
+for (i = 0; < ac; i++)
 {
 for (j = 0; av[i][j]; j++)
 {
