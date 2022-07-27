@@ -13,7 +13,7 @@ if (str == NULL || *str == '\0')
 return (NULL);
 for (; str[i]; i++)
 {
-if ((str[i] != ' ' || (str != '\t') &&
+if ((str[i] != ' ' || *str != '\t') &&
 ((str[i + 1] == ' ' || str[i + 1] == '\t') || str[i + 1] == '\n'))
 count++;
 }
